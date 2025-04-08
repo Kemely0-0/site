@@ -4,8 +4,10 @@
         <title> </title>
         <link rel="stylesheet" type="text/css" href="">
         <script src="jquery.js"> </script>
+           
             <script>
-              btn_um.onclick = function(){alert("1");} 
+             $(document).ready(function(){
+              btn_um.onclick = function(){$("#campo").val("1");}
               btn_dois.onclick = function(){} 
               btn_tres.onclick = function(){} 
               btn_adicao.onclick = function(){}
@@ -31,6 +33,7 @@
 
               btn_igual.onclick = function(){}
               btn_reiniciar.onclick = function(){}
+            });
 
                 alert("Hello Moto");
             </script>
